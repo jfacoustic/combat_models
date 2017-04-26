@@ -5,14 +5,20 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../Army.cpp \
+../Battle.cpp \
+../BattleOfTwo.cpp \
 ../main.cpp 
 
 OBJS += \
 ./Army.o \
+./Battle.o \
+./BattleOfTwo.o \
 ./main.o 
 
 CPP_DEPS += \
 ./Army.d \
+./Battle.d \
+./BattleOfTwo.d \
 ./main.d 
 
 

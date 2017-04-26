@@ -1,0 +1,21 @@
+/*
+ * BattleOfTwo.cpp
+ *
+ *  Created on: Apr 26, 2017
+ *      Author: joshua
+ */
+
+#include "BattleOfTwo.h"
+
+BattleOfTwo::BattleOfTwo(Army * x, Army * y) {
+	// TODO Auto-generated constructor stub
+	_x = x;
+	_y = y;
+}
+
+BattleOfTwo::~BattleOfTwo() {
+	// TODO Auto-generated destructor stub
+}
+
+void BattleOfTwo::nextTurn() {
+}

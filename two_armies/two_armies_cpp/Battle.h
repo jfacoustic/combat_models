@@ -12,7 +12,7 @@ class Battle {
 public:
 	Battle();
 	virtual ~Battle();
-	virtual void nextTurn();
+	virtual void nextTurn() {}
 };
 
 #endif /* BATTLE_H_ */
