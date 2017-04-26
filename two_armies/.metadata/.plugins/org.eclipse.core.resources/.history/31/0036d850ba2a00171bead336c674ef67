@@ -1,0 +1,17 @@
+/*
+ * Army.h
+ *
+ *  Created on: Apr 26, 2017
+ *      Author: joshua
+ */
+
+#ifndef ARMY_H_
+#define ARMY_H_
+
+class Army {
+public:
+	Army();
+	virtual ~Army();
+};
+
+#endif /* ARMY_H_ */
